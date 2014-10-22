@@ -8,11 +8,13 @@
   <packaging>jar</packaging>
 
   <name>api</name>
-  <url>https://blockchain.info</url>
+  <url>https://blockchain.info/api</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <github.global.server>github</github.global.server>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
   </properties>
 
   <distributionManagement>
